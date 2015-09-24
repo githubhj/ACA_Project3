@@ -1,0 +1,270 @@
+(MI_4proc  ) ****Starting****
+Exception in thread MI_4proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MI_8proc  ) ****Starting****
+Exception in thread MI_8proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MI_16proc ) ****Starting****
+Exception in thread MI_16proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MSI_4proc ) ****Starting****
+Exception in thread MSI_4proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MSI_8proc ) ****Starting****
+Exception in thread MSI_8proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MSI_16proc) ****Starting****
+Exception in thread MSI_16proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MESI_4proc) ****Starting****
+Exception in thread MESI_4proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MESI_8proc) ****Starting****
+Exception in thread MESI_8proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MESI_16proc) ****Starting****
+Exception in thread MESI_16proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MOSI_4proc) ****Starting****
+Exception in thread MOSI_4proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MOSI_8proc) ****Starting****
+Exception in thread MOSI_8proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MOSI_16proc) ****Starting****
+Exception in thread MOSI_16proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MOESI_4proc) ****Starting****
+Exception in thread MOESI_4proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MOESI_8proc) ****Starting****
+Exception in thread MOESI_8proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MOESI_16proc) ****Starting****
+Exception in thread MOESI_16proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MOESIF_4proc) ****Starting****
+Exception in thread MOESIF_4proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MOESIF_8proc) ****Starting****
+Exception in thread MOESIF_8proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
+(MOESIF_16proc) ****Starting****
+Exception in thread MOESIF_16proc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "Cache_Coherency.py", line 65, in target
+    self.process1 = subprocess.Popen(args,stderr=self.log,cwd=self.ipath)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 13] Permission denied
+
