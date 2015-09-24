@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##ACA Project3: Advanced Computer Architecture ECE 6100- Fall 2014 (Dr. Conte)
 ==========
 -------------------------------------------------------------------------
@@ -30,3 +31,6 @@
 
 1. Compile using provided makefile
 2. Running the script: python Cache_Coherence.py -r \<runcmd\> -t \<tracepath\> -i \<inputpath\> -o \<outputpath\>
+=======
+# ACA_Project3
+>>>>>>> 09816887717c65da6a329e989621275a756535d2
